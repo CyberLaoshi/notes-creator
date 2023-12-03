@@ -5,7 +5,7 @@ import CreateNewNote from "./components/CreateNewNote";
 function App() {
   // let items: string[] = ["Запись 1", "Запись 2", "Запись 3"];
   // const [name, setName] = useState("");
-  const [notes, addNote] = useState([] as string[]);
+  const [notes, addNote] = useState([] as string[][]);
   const [contentInfo, changeInfo] = useState(["Нет выбранной записи"]);
 
   const HandleSelectedItem = (item: string[]) => {
